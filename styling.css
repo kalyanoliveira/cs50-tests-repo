@@ -1,5 +1,10 @@
-h1, h2, h3, h4, h5, h6 {
-  color: red;
+.headers {
+  color: white;
   text-align: center;
   font-family: Arial, sans-serif;
+  background-color: black;
+  width: 400px;
+  margin: 25px;
+  font-weight: bold;
+  border: 5px solid gray;
 }
