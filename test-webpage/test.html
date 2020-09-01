@@ -1,64 +1,101 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Web Page!</title>
-    <link rel="stylesheet" href="styling.css">
-  </head>
-  <body>
-    <div class="headers">
-      Hello world!
-      <h1>Largest heading</h1>
-      <h2>Second largest heading</h2>
-      <h3>Third largest heading</h3>
-      <h4>Third smallest heading</h4>
-      <h5>Second smallest heading</h5>
-      <h6>Smallest heading</h6>
-    </div>
-    <div class="lists">
-      <ol>
-        <li>First item</li>
-        <li>Second item</li>
-        <li>Third item</li>
-      </ol>
-      <ul>
-        <li>Some item</li>
-        <li>Another item</li>
-        <li>And another item</li>
-      </ul>
-    </div>
-    <div class="cat image">
-      <p>a cat image, cuz why not</p>
-      <img src="cat.jpg" width="25%">
-    </div>
-    <div class="table">
-      <table>
-        <tr>
-          <th>Name</th>
-          <th>Skill level</th>
-          <th>Alias</th>
-        </tr>
-        <tr>
-          <td>Kalyan</td>
-          <td>Beyond perception</td>
-          <td>Legend</td>
-        </tr>
-        <tr>
-          <td>Tarik</td>
-          <td>Worst than a bot</td>
-          <td>chita</td>
-        </tr>
-        <tr>
-          <td>Christiano</td>
-          <td>?</td>
-          <td>chita</td>
-        </tr>
-      </table>
-    </div>
-    <div class="form">
-      <form>
-        <input type="password" name="password" placeholder="insert password here">
-        <button>submit</button>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Webpage</title>
+</head>
+<body>
+    Some text, no tags used
+
+    <h1>A heading, with the h1 heading</h1>
+
+    <h2>A smaller heading, h2 tag</h2>
+
+    <h6>Smallest haeding, h6 tag</h6>
+
+    <strong>Some text in bold, using the strong tag</strong>
+
+    <i>Some text in italic, using the i tag</i>
+
+    <br/>
+
+    Some more text, no tags used. This time, it appears in the below the i tag text because I've used the br/ tag. You can only really see it in the html code of this webpage
+
+    <p>Here's use of some paragraph, with the p tag. Some random text: Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought. </p>
+    
+    <p>Another paragraph. Like this, you can see the separation they make in comparision to just plain text, or even br/ tag usage. Random text: Its sometimes her behaviour are contented. Do listening am eagerness oh objection collected. Together gay feelings continue juvenile had off one. Unknown may service subject her letters one bed. Child years noise ye in forty. Loud in this in both hold. My entrance me is disposal bachelor remember relation. </p>
+    
+    <ul>
+        An undered list, using the ul tag. Notice that this text is aligned with the other list items, because it's inside the ul tag
+        <li>A list item, using the li tag</li>
+        <li>Another list item</li>
+        <li>Just one more</li>
+    </ul>
+
+    <ol>
+        An ordered list, using the ol tag
+        <li>A list item, this time numbered, but using the same li tag</li>
+        <li>Another list item, li tag again</li>
+        <li>Just one more</li>
+    </ol>
+
+    Below is an image, achieved by the img tag. This new tag is special, because it required no ending tag (img/), but it does require some atributtes. See the code for this webpage for more insight
+    
+    <br/>
+    <br/>
+
+    <img src="https://i.kym-cdn.com/entries/icons/facebook/000/000/107/smily.jpg" alt="Awesome Face Image" width="200px"> Some text after the img tag
+
+    <br/> <br/>
+
+    Some text after two br/ tags. 
+
+    <br/>
+
+    Now, let's get a table in here by using the table tag. This one does require a closing tag (table/). A table tag requires two other tags inside it: thead and tbody. Inside thead, you add the correct amount of th tags: their are the headers for the table (vertical sections). Inside tbody, you add the correct amount of tr tags, which stand for table row. Inside table row tags, you add the correct amount of td tags, table data. Take a look in the code for a better understanding. Let's see how all this looks like
+
+    <br/>
+
+    Also notice that text inside a table tag can only be added through the use of other tags. For example (using [] instead of <>), "wasd" in [table]wasd[table/] would be displayed outside of the table
+
+    <br/> <br/>
+
+    <table>
+        <thead>
+            <th>Here's our first heading, using the th tag</th>
+            <th>Another heading</th>
+            <th>And another one</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Data</td>
+                <td>Data</td>
+                <td>Data</td>
+            </tr>
+            <tr>
+                <td>Second row data</td>
+                <td>Second row data</td>
+                <td>Second row data</td>
+            </tr>
+            <tr>
+                <td>Third row data</td>
+                <td>Third row data</td>
+                <td>Third row data</td>
+            </tr>
+        </tbody>
+    </table>
+
+    Some more text after the table. I've used no br/ tags for this
+
+    <br/>
+
+    Now, a very simple password form. It doesn't actually do anyhthing, I need to learn Python for that
+
+    <form>
+        <input type="password" name="password" placeholder="Insert password here">
+        <button>Submit</button>
       </form>
-    </div>
-  </body>
+
+</body>
 </html>
